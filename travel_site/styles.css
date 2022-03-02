@@ -1,0 +1,151 @@
+@charset "UTF-8";
+body {
+	color: #272449;
+	background-image: url(images/background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size: 14pt;
+}
+
+nav {
+	width: 768px;
+	height: 50px;
+	float: left;
+}
+
+#container {
+	width: 768px;
+	height: auto;
+	background-color: #F79D9F;
+	margin: auto;
+}
+
+#container nav li {
+	display: block;
+	list-style-type: none;
+	float: left;
+	width: 60px;
+	margin-right: 80px;
+	margin-left: 0px;
+	font-family: video, serif;
+	font-size: 15pt;
+}
+
+#container nav ul {
+	margin: auto;
+	width: 575px;
+}
+
+header {
+	width: 768px;
+	height: 250px;
+	background-image: url(images/travel_header.png);
+	background-color: white;
+	
+}
+
+aside {
+	width: 170px;
+	height: 6530px;
+	background-color: #9DF7D9;
+	padding: 0px 0px 0px 20px;
+	float: left;
+}
+
+main {
+	width: 548px;
+	height: 6540px;
+	padding: 0px 5px 30px 20px;
+	float: left;
+}
+
+img {
+	float: right;
+	padding: 10px;
+}
+
+.floatLeft {
+	float: left;
+}
+
+article {
+	margin-bottom: 30px;
+}
+
+footer {
+	background-color: #9DF7D9;
+	clear: both;
+	height: 150px;
+}
+
+h1 {
+	color: #1F397A;
+	font-family: modula-serif,serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 30pt;
+}
+
+p {
+	font-family: marigny,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	
+}
+
+h3 {
+	font-size: 14pt;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+nav a:link {
+	color: #1388CE;
+	text-decoration: none;
+	padding: 10px;
+}
+nav a:visited {
+	text-decoration: none;
+	color: #5D1FCD;
+}
+nav a:hover {
+	text-decoration: none;
+	color: #F79D9E;
+	background-color: #1388CE;
+	padding: 10px;
+	border-radius: 15px;
+}
+nav a:active {
+	text-decoration: none;
+	color: #272348;
+}
+
+a:link {
+	color: #5d64e4;
+	text-decoration: none;
+}
+a:visited {
+	color: #B81215;
+	text-decoration: none;
+}
+    a:hover {
+	text-decoration: underline;
+	color: #FFFFFF;
+}
+a:active {
+	text-decoration: none;
+	color: #5DE4CD;
+}
+.submit_btn {
+	width: 185px;
+	background-color: #1388CE;
+	border-radius: 10px;
+	color: #F79D9E;
+	font-size: 14pt;
+}
+.submit_btn:hover {
+	-webkit-box-shadow: 5px 5px 10px 1px #636161;
+	box-shadow: 5px 5px 10px 1px #636161;
+}
